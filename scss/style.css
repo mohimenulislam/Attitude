@@ -68,6 +68,7 @@ body {
 
 .main_header .inner_header .right_header form input[type="submit"] {
   width: 80px;
+  margin-left: 10px;
 }
 
 .main_header .inner_header .right_header nav {
@@ -80,8 +81,10 @@ body {
 }
 
 .main_header .inner_header .right_header nav ul li a {
+  font-size: 13px;
+  font-family: Verdana;
   color: #e4dfc8;
-  text-transform: uppercase;
+  text-transform: capitalize;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }

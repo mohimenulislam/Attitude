@@ -20,6 +20,7 @@
                 input[type="submit"] {
                     @extend %input_submit;
                     width: 80px;
+                    margin-left: 10px;
                 }
             }
             nav {

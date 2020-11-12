@@ -5,8 +5,10 @@
                 display: inline-block;
                 margin-left: 60px;
                 a {
+                    font-size: 13px;
+                    font-family: Verdana;
                     color: $nav_text_color;
-                    text-transform: uppercase;
+                    text-transform: capitalize;
                     transition: 0.2s;
                     &:hover {
                         color: $primary_color;
