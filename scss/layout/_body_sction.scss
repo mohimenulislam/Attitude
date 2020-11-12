@@ -1,0 +1,93 @@
+.main_body {
+    background-color: $primary_color;
+    overflow: hidden;
+    .inner_body {
+        overflow: hidden;
+        margin-bottom: 30px;
+        .body_left {
+            float: left;
+            width: 445px;
+
+            .body_left_upper {
+                h2 {
+                    padding-top: 30px;
+                    padding-bottom: 12px;
+                    color: #ffffff;
+                    font-size: 37px;
+                }
+                p {
+
+                    font-size: 13px;
+                    color: #333333;
+                    font-family: Verdana;
+                    padding-bottom: 70px;
+                }
+            }
+            .body_left_lower {
+                img {
+                    border: 1px solid black;
+                    padding: 6px;
+                    color: #333333;
+                }
+            }
+        }
+        .body_right {
+            float: right;
+            .body_right_upper {
+                margin-top: 30px;
+                ul {
+                    li {
+                        display: inline-block;
+                        margin-left: 15px;
+                        img {
+                            border: 1px solid #333333;
+                            padding: 3px;
+                        }
+                    }
+                }
+            }
+            .body_right_lower {
+                float: right;
+                .body_child {
+                    margin-top: 60px;
+                    background-color: #333333;
+                    width: 485px;
+                    height: 255px;
+                    overflow: hidden;
+                    .child_left {
+                        float: left;
+                        width: 250px;
+                        padding: 20px;
+                        h4 {
+                            color: #ffffff;
+                            font-size: 16px;
+                        }
+                        p {
+                            margin-top: 15px;
+                            color: #e4dfc8;
+                            font-size: 14px;
+                        }
+                        a {
+                            float: right;
+                            font-size: 13px;
+                            background-color: #1e1e1e;
+                            color: $primary_color;
+                            padding: 5px;
+                            font-family: Verdana;
+                            margin-top: 42px;
+                        }
+                    }
+                    .child_right {
+                        float: right;
+                        margin: 25px 0;
+                        img {
+                            border: 1px solid #232323;
+                            padding: 4px;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

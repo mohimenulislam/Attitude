@@ -24,6 +24,7 @@
 
 .container {
   width: 960px;
+  margin: 0 auto;
 }
 
 ul li {
@@ -44,7 +45,6 @@ body {
 
 .main_header .inner_header {
   overflow: hidden;
-  margin: 0 auto;
 }
 
 .main_header .inner_header .left_header {
@@ -69,6 +69,109 @@ body {
 .main_header .inner_header .right_header form input[type="submit"] {
   width: 80px;
   margin-left: 10px;
+}
+
+.main_body {
+  background-color: #95a60a;
+  overflow: hidden;
+}
+
+.main_body .inner_body {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.main_body .inner_body .body_left {
+  float: left;
+  width: 445px;
+}
+
+.main_body .inner_body .body_left .body_left_upper h2 {
+  padding-top: 30px;
+  padding-bottom: 12px;
+  color: #ffffff;
+  font-size: 37px;
+}
+
+.main_body .inner_body .body_left .body_left_upper p {
+  font-size: 13px;
+  color: #333333;
+  font-family: Verdana;
+  padding-bottom: 70px;
+}
+
+.main_body .inner_body .body_left .body_left_lower img {
+  border: 1px solid black;
+  padding: 6px;
+  color: #333333;
+}
+
+.main_body .inner_body .body_right {
+  float: right;
+}
+
+.main_body .inner_body .body_right .body_right_upper {
+  margin-top: 30px;
+}
+
+.main_body .inner_body .body_right .body_right_upper ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.main_body .inner_body .body_right .body_right_upper ul li img {
+  border: 1px solid #333333;
+  padding: 3px;
+}
+
+.main_body .inner_body .body_right .body_right_lower {
+  float: right;
+}
+
+.main_body .inner_body .body_right .body_right_lower .body_child {
+  margin-top: 60px;
+  background-color: #333333;
+  width: 485px;
+  height: 255px;
+  overflow: hidden;
+}
+
+.main_body .inner_body .body_right .body_right_lower .body_child .child_left {
+  float: left;
+  width: 250px;
+  padding: 20px;
+}
+
+.main_body .inner_body .body_right .body_right_lower .body_child .child_left h4 {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.main_body .inner_body .body_right .body_right_lower .body_child .child_left p {
+  margin-top: 15px;
+  color: #e4dfc8;
+  font-size: 14px;
+}
+
+.main_body .inner_body .body_right .body_right_lower .body_child .child_left a {
+  float: right;
+  font-size: 13px;
+  background-color: #1e1e1e;
+  color: #95a60a;
+  padding: 5px;
+  font-family: Verdana;
+  margin-top: 42px;
+}
+
+.main_body .inner_body .body_right .body_right_lower .body_child .child_right {
+  float: right;
+  margin: 25px 0;
+}
+
+.main_body .inner_body .body_right .body_right_lower .body_child .child_right img {
+  border: 1px solid #232323;
+  padding: 4px;
+  margin-right: 20px;
 }
 
 .main_header .inner_header .right_header nav {
