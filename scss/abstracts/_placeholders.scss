@@ -1,0 +1,11 @@
+%input_text {
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+%input_submit {
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: $primary_color;
+    border:1px solid $button_border_color;
+}
