@@ -1,0 +1,23 @@
+.copyright_section {
+    background-color: #1f1f1f;
+    .inner_copyright {
+        overflow: hidden;
+        // border: 1px solid red;
+        padding: 15px 0;
+        p {
+            font-size: 14px;
+            color: #525252;
+        }
+        .copyright_left {
+            float: left;
+            // border: 1px solid green;
+            padding: 15px 0;
+        }
+        .copyright_right {
+            float: right;
+            // border: 1px solid green;
+            // padding: 15px 0;
+
+        }
+    }
+}

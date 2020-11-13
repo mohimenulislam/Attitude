@@ -279,6 +279,29 @@ body {
   width: 190px;
 }
 
+.copyright_section {
+  background-color: #1f1f1f;
+}
+
+.copyright_section .inner_copyright {
+  overflow: hidden;
+  padding: 15px 0;
+}
+
+.copyright_section .inner_copyright p {
+  font-size: 14px;
+  color: #525252;
+}
+
+.copyright_section .inner_copyright .copyright_left {
+  float: left;
+  padding: 15px 0;
+}
+
+.copyright_section .inner_copyright .copyright_right {
+  float: right;
+}
+
 .main_header .inner_header .right_header nav {
   margin: 25px 0;
 }
