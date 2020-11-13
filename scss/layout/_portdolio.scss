@@ -1,0 +1,29 @@
+.portfolio_section {
+    background-color: #e4dfc8;
+    .inner_portfilio {
+        padding-bottom: 30px;
+        overflow: hidden;
+        .child_portfolio {
+            float: left;
+            width: 31.5%;
+            margin-right: 2.5%;
+        }
+        .child_portfolio_right {
+            float: right;
+            width: 31.5%;
+        }
+        h3 {
+            padding-top: 35px;
+            font-size: 20px;
+            color: #333333;
+        }
+        p {
+            margin-top: 35px;
+            font-size: 14px;
+            color: #333333;
+        }
+        img {
+            margin-top: 20px;
+        }
+    }
+}

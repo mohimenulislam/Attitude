@@ -174,6 +174,42 @@ body {
   margin-right: 20px;
 }
 
+.portfolio_section {
+  background-color: #e4dfc8;
+}
+
+.portfolio_section .inner_portfilio {
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.portfolio_section .inner_portfilio .child_portfolio {
+  float: left;
+  width: 31.5%;
+  margin-right: 2.5%;
+}
+
+.portfolio_section .inner_portfilio .child_portfolio_right {
+  float: right;
+  width: 31.5%;
+}
+
+.portfolio_section .inner_portfilio h3 {
+  padding-top: 35px;
+  font-size: 20px;
+  color: #333333;
+}
+
+.portfolio_section .inner_portfilio p {
+  margin-top: 35px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.portfolio_section .inner_portfilio img {
+  margin-top: 20px;
+}
+
 .main_header .inner_header .right_header nav {
   margin: 25px 0;
 }
