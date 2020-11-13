@@ -1,6 +1,7 @@
 .portfolio_section {
     background-color: #e4dfc8;
     .inner_portfilio {
+        padding-top: 35px;
         padding-bottom: 30px;
         overflow: hidden;
         .child_portfolio {
@@ -13,7 +14,6 @@
             width: 31.5%;
         }
         h3 {
-            padding-top: 35px;
             font-size: 20px;
             color: #333333;
         }
